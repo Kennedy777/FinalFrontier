@@ -3,12 +3,16 @@ const venusAge = .62;
 const marsAge = 1.88;
 const jupiterAge = 11.86;
 
-  export class Age {
+ export class Age {
 
-    constructor(earthAge, lifeExpectancy) {
+  function human(earthAge, lifeExpectancy) {
       this.earthAge = earthAge;
-      this.currentYear = currentYear;
       this.lifeExpectancy = lifeExpectancy;
+    }
+
+    earthInSecs() {
+      let earthAge = (this.age * 31556952);
+      return ageInSeconds;
     }
 
     getEarthAge() {

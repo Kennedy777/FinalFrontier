@@ -5,8 +5,8 @@ body {
     padding: 10px;
   }
 
-/* .container {
-  background: url('./../../img/spacecat.jpg')no-repeat center center fixed;
+.container {
+  background: url('img/spacecat.jpg')no-repeat center center fixed;
   background-size: cover;
   height: 100%;
   width: auto;
@@ -14,4 +14,4 @@ body {
 
 .results {
   display: none;
-} */
+}

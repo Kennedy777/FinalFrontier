@@ -12,13 +12,17 @@ This is an app to calculate a person's age on other planets, such as Mercury or 
 
 ## Setup/Installation Requirement
 * Clone repository at www.github.com/Kennedy777/SpaceAge
-
-* Install Node and Karma
-* If you already have Node and Karma installed, then skip to "Install Dependencies."
-
+* _Clone GitHub repository to desktop or desired directory_
+* _Navigate to directory in terminal_
+* _Run the following commands:_
+    $ npm install (to install dependencies)
+    $ ./node_modules/.bin/jasmine init (to initialize Jasmine)
+    $ karma init (to initialize Karma)
+    $ npm install -g karma-cli (to use Karma in the terminal)
 
 ## Known Bugs
-_The program doesn't account for Leap Years
+_The program doesn't account for Leap Years\
+_UI is not currently connected to back-end
 
 
 ## Contact Information
@@ -33,9 +37,9 @@ _Get in touch via Github!_
 |
 
 ### Specs
-1. The program will take an age in years and convert it into days
+1. The program will take an age in years and convert it into seconds
   * Input: 1
-  * Output: 365
+  * Output: 31,536,000
 2. The program will return a human's age in Mercury years (.24 Earth years).
   * Input: 30
   * Output:
